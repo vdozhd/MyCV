@@ -61,3 +61,26 @@ footer {
     font-family: 'Comic Neue', cursive;
     margin-left: 3%;
 }
+.subtitle {
+    font-family: 'Comic Neue', cursive;
+			font-size: 25px;
+			background: #000;
+			color: rgb(241, 241, 225);
+			display: inline-block;
+			padding: 0 2px;
+			line-height: 30px;
+}
+.mainInfo {font-family: 'Comic Neue', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 2px;
+    }
+.DetailedInfo {
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    padding: 0 2px
+}
+span.years {
+    font-size: 18px;
+      	font-weight: 900;
+    }
