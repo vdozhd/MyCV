@@ -1,3 +1,21 @@
+header {
+    background: linear-gradient(to top, #ff9100, #ff0000);
+}
+footer {
+    background-color: black;
+}
+#impression {
+    display: table;
+    font-size: 32px;
+    font-family: Times;
+    color: White;
+}
+#links {
+    display: flex;
+    border: 1px;
+    font-family: sans-serif;
+    font-size: large;
+}
 #inform {
     display: table;
     border-bottom: 1px solid red;
@@ -27,8 +45,3 @@
     text-align: left;
     font-size: 15px;
     font-family: Arial;}
-#impression {
-    font-size: 32px;
-    font-family: Times;
-    color: red;
-}
