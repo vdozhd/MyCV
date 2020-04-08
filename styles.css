@@ -1,3 +1,32 @@
+#inform {
+    display: table;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+}
+.info {
+    display: table;
+    font-size: 20px;
+    font-family: Arial;
+    margin: 40px 0 12px;
+	max-width: 620px;
+	width: 960px;
+	float: left;
+}
+
+.info-namesurname {
+    display: table;
+    text-align: left;
+    font-size: 25px;
+    font-family: Arial;
+}
+.info-status {display: table;
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial;}
+.info-contacts {display: table;
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial;}
 #impression {
     font-size: 32px;
     font-family: Times;
