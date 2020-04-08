@@ -1,5 +1,5 @@
 header {
-    background: linear-gradient(to top, #ff9100, #ff0000);
+    background: linear-gradient(to left,  #7a7a7a, #000000);
 }
 footer {
     background-color: black;
@@ -7,13 +7,13 @@ footer {
 #impression {
     display: table;
     font-size: 32px;
-    font-family: Times;
+    font-family: 'Comic Neue', cursive;
     color: White;
 }
 #links {
     display: flex;
     border: 1px;
-    font-family: sans-serif;
+    font-family: 'Comic Neue', cursive;
     font-size: large;
 }
 #inform {
@@ -21,27 +21,43 @@ footer {
     border-bottom: 1px solid red;
     border-top: 1px solid red;
 }
-.info {
-    display: table;
-    font-size: 20px;
-    font-family: Arial;
-    margin: 40px 0 12px;
-	max-width: 620px;
-	width: 960px;
-	float: left;
+.photoCV {
+    height: 250px;
+    padding: 25 px 0;
+    margin-left: 2%;
+    padding-top: 2%;
+    position: relative;
+    display: inline;
 }
-
+.info {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+	width: 100%;
+}
 .info-namesurname {
     display: table;
     text-align: left;
-    font-size: 25px;
-    font-family: Arial;
+    font-size: 32px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bolder;
 }
-.info-status {display: table;
+.info-status {
+    display: table;
     text-align: left;
-    font-size: 15px;
-    font-family: Arial;}
-.info-contacts {display: table;
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive;
+}
+.info-contacts {
+    display: table;
     text-align: left;
-    font-size: 15px;
-    font-family: Arial;}
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive;
+}
+.tdwhite {
+    color: white;
+    font-size: 35px;
+    font-family: 'Comic Neue', cursive;
+    margin-left: 3%;
+}
