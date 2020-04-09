@@ -7,14 +7,21 @@ footer {
 #impression {
     display: table;
     font-size: 32px;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Playfair Display', serif;
     color: White;
 }
 #links {
     display: flex;
     border: 1px;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: large;
+}
+nav {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+} 
+nav li {
+    display: inline-block;
 }
 #inform {
     display: table;
@@ -32,7 +39,7 @@ footer {
 .info {
     display: flex;
     font-size: 20px;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Playfair Display', serif;
     font-weight: bold;
 	width: 100%;
 }
@@ -40,43 +47,44 @@ footer {
     display: table;
     text-align: left;
     font-size: 32px;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Playfair Display', serif;
     font-weight: bolder;
 }
 .info-status {
     display: table;
     text-align: left;
     font-size: 20px;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Playfair Display', serif;
 }
 .info-contacts {
     display: table;
     text-align: left;
     font-size: 20px;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Playfair Display', serif;
 }
 .tdwhite {
     color: white;
     font-size: 35px;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Playfair Display', serif;
     margin-left: 3%;
 }
 .subtitle {
-    font-family: 'Comic Neue', cursive;
-			font-size: 25px;
-			background: #000;
-			color: rgb(241, 241, 225);
-			display: inline-block;
-			padding: 0 2px;
-			line-height: 30px;
+    font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	background: #000;
+	color: rgb(241, 241, 225);
+	display: inline-block;
+	padding: 0 2px;
+	line-height: 30px;
 }
-.mainInfo {font-family: 'Comic Neue', cursive;
+.mainInfo {
+    font-family: 'Playfair Display', serif;
     font-size: 25px;
     font-weight: bold;
     padding: 0 2px;
     }
 .DetailedInfo {
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 20px;
     padding: 0 2px
 }
