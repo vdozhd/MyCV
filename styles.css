@@ -19,68 +19,70 @@ body {max-width: 70%;
     margin: auto;
     border-bottom: 1px solid black;}
 nav {
-    font-family: 'Slabo 27px', serif;
-    float:right;
-} 
+   float:right;
+  } 
 nav li {
     display: inline-block;
 }
-
+table {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
 }
-.img {
-    display: table-cell;
-    float:left;
-}
-.info-namesurname {
-    display: table-cell;
-    font-family: 'Slabo 27px', serif;
+.Info {
+    display: block;
+    width: 720px;
+    float: right;
+    margin: 30px 30px;
+    }
+.FIO {
+    display: block;
+    vertical-align: top;
     font-weight: bolder;
-    float: right;
+    font-size: 25px;
+    margin: 0px;
+ }
+p {
+    display: block;
+    vertical-align: top;
+    font-size: 17px;
+    margin: 0px;
 }
-.info-status {
-    display: table-cell;
-    font-family: 'Slabo 27px', serif;
-    clear:both;
-}
-.info-contacts {
-    display: table-cell;
-    font-family: 'Slabo 27px', serif;
-    float: right;
+td {
+    vertical-align: top;
+    margin: 0px;
+    border: 0px;
 }
 .tdwhite {
     color: white;
     font-size: 35px;
-    font-family: 'Slabo 27px', serif;
     margin-left: 3%;
 }
 .subtitle {
-    font-family: 'Slabo 27px', serif;
-	font-size: 25px;
-	background: blue;
+    font-size: 25px;
+	background: black;
 	color: rgb(241, 241, 225);
 	display: inline-block;
 	padding: 0 2px;
 	line-height: 30px;
 }
 .mainInfo {
-    font-family: 'Slabo 27px', serif;
     font-size: 25px;
     font-weight: bold;
     padding: 0 2px;
     }
 .DetailedInfo {
-    font-family: 'Slabo 27px', serif;
     font-size: 20px;
-    padding: 0 2px
+    padding: 0 2px;
+    font-style: italic;
 }
 span.years {
-    font-size: 18px;
-      	font-weight: 900;
+    font-size: 19px;
     }
 h1 {
     display: table;
     text-align: left;
     font-size: 42px;
-    font-family: 'Slabo 27px', serif;
     font-weight: bolder;
 }
